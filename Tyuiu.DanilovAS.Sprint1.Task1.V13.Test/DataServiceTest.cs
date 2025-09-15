@@ -7,7 +7,7 @@ namespace Tyuiu.DanilovAS.Sprint1.Task1.V13.Test
         [TestMethod]
         public void TestMethod1()
         {
-            DataService ds=  new DataService();
+            DataService ds = new DataService();
             double x = 4;
             double wait = 2;
             double res = ds.Calculate(x);
