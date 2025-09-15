@@ -5,7 +5,7 @@ namespace Tyuiu.DanilovAS.Sprint1.Task7.V20.Lib
     {
         public double Calculate(double x, double y)
         {
-            var z = (2 + Math.Pow(Math.Cos(x + y), 2) / (1 + Math.Abs(x - (3 * x) / (1 + Math.Pow(x, 2) * Math.Pow(y, 2)))) + x * y);
+            double z = (2 + Math.Cos(x + y) * Math.Cos(x + y)) / (1 + Math.Abs(x - (3 * x) / (1 + x * x * y * y))) + x * y;
             return Math.Round(z,3);
         }
     }

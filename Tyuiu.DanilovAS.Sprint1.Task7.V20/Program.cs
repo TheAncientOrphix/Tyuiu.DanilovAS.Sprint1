@@ -31,7 +31,7 @@ namespace Tyuiu.DanilovAS.Sprint1.Task7.V20
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            var res = ds.Calculate(x,y) ;
+            double res = ds.Calculate(x,y) ;
             Console.WriteLine($"Z = 2+cos^2(x+y)/(1+|x- 3*x/(1+x^2*y^2)|) = {res}");
             Console.ReadKey();
         }
