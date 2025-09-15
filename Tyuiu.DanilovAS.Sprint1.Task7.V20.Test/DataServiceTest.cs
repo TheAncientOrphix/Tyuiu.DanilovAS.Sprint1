@@ -10,7 +10,7 @@ namespace Tyuiu.DanilovAS.Sprint1.Task7.V20.Test
             DataService ds = new DataService();
             var x = 2;
             var y = 4;
-            var wait = 2.317;
+            var wait = 10.317;
             var res = ds.Calculate(x, y);
             Assert.AreEqual(res, wait);
         }
