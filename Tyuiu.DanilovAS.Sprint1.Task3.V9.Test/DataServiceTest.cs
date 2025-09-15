@@ -9,7 +9,7 @@ namespace Tyuiu.DanilovAS.Sprint1.Task3.V9.Test
         {
             DataService ds = new DataService();
             int min = 150;
-            double wait = 2;
+            double wait = 2.5;
             double res = ds.ConvertMinutesToHours(min);
             Assert.AreEqual(res,wait);
         }
